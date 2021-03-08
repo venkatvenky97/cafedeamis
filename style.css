@@ -1,0 +1,107 @@
+{
+	padding: 0;
+	margin: 0;
+}
+.design{
+	background: url(restaurent.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 1340px;
+}
+.navbar
+{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+}
+.logo{
+	width: 140px;
+	height: auto;
+	padding: 80px 10px;
+}
+.navbar ul
+{
+	float: right;
+	margin-right: 30px;
+}
+.navbar ul li
+{
+	list-style: none;
+	margin: 0 2px;
+	display: inline-block;
+	line-height:20px;
+}
+.navbar ul li a{
+	text-decoration: initial;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family:san-serif;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+	background: red;
+	border-radius: 10px;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+	font-family: serif;
+}
+.center h1{
+	color: black;
+	font-size: 70;
+	font-weight: bolder;
+	width: 900px
+	text-align:center;
+}
+.center h3{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	width: 500px;
+	margin-top: 5px;
+	text-align: center;
+}
+ .center .button{
+ 	margin: 35px 300px;
+
+ }
+.button
+{
+	height: 5px;
+	width: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	background: voilet;
+	border: 0px solid red;
+	outline-style: none;
+	cursor: pointer;
+	border-radius: 50px;
+	transition: .5s;
+}
+.button:hover{
+	background: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
